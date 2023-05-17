@@ -5,11 +5,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-core -->
+		<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-servlet -->
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
-			<artifactId>jersey-core</artifactId>
-			<version>1.19.4</version>
+			<artifactId>jersey-servlet</artifactId>
+			<version>1.19</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-server -->
 		<dependency>
@@ -17,11 +17,10 @@
 			<artifactId>jersey-server</artifactId>
 			<version>1.19.4</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-servlet -->
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
-			<artifactId>jersey-servlet</artifactId>
-			<version>1.19.4</version>
+			<artifactId>jersey-core</artifactId>
+			<version>1.19</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 		<dependency>
@@ -33,7 +32,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>6.2.2.Final</version>
+			<version>5.6.15.Final</version>
 			<type>pom</type>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
